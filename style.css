@@ -1,0 +1,150 @@
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url(backgrnd.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.wrapper{
+    /* border: 1px solid red; */
+   width: 80%;
+   margin: 5rem 0rem 5rem 10rem;
+   padding: 3rem;
+   display: flex;
+   justify-content: space-around;
+   align-items: flex-start;
+   line-height: 1.2rem;
+   background: #205140;
+   border-radius: 15px;
+}
+section{
+    flex-basis: 55%;
+    margin-right: 5rem;
+}
+aside{
+    /* border: 2px solid red; */
+    flex-basis: 35%;
+    padding: 1rem;
+}
+aside h3{
+    margin-bottom: 2rem;
+}
+aside address{
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+p,[for="date"], [for="qnty"], [for="abtype"],  [ for="comments"]{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    /* margin: 2rem 0 0 0 */
+    font-size: 1.4rem;
+}
+fieldset{
+ 
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 1rem;
+    padding-left: 0.5rem;
+
+}
+legend{
+    /* border: 2px solid red; */
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 0.5rem;
+    /* margin-top: 1.5rem;
+    margin-bottom: 1rem; */
+    /* display: block; */
+}
+label{
+    /* border: 2px solid blue;  */
+    display: block;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+input:not([type="radio"]):not([type="checkbox"]), textarea, select{
+    /* border: 2px solid blue; */
+    /* to allow padding on them */
+    display: block;
+    width: 20rem;
+    margin-bottom: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding:  0.8rem;
+    border-radius: 15px;
+    border: none;
+}
+select{
+    font-size: 1rem;
+}
+textarea{
+    /* border: 2px solid blue;  */
+    padding: 1rem;
+    height: 10rem;
+}
+ input[type="checkbox"]{
+    /* border: 1px solid red; */
+    margin-right: 1rem;
+ 
+    display: inline-block;
+}
+
+button{
+    background: #bb342f;
+    padding: 1rem 0.4rem;
+    margin: 1rem 0;
+    font-size: 1rem;
+    border:none;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover{
+    background: white;
+    color:#bb342f;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
